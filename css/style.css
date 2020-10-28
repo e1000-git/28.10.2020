@@ -1,0 +1,57 @@
+.accordion button {
+  width: 100%;
+  background-color: blueviolet;
+  color: white;
+  font-size: 50px;
+}
+
+.accordion p {
+  text-align: center;
+  font-size: 20px;
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.slider {
+  margin: 20px auto;
+  border: 1px solid green;
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+
+.slider img {
+  width: 100%;
+}
+
+.slider .next, .slider .prev {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.slider .next i, .slider .prev i {
+  margin: 6px;
+}
+
+.slider .next {
+  right: 20px;
+}
+
+.slider .prev {
+  left: 20px;
+}
+/*# sourceMappingURL=style.css.map */
